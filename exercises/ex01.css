@@ -1,5 +1,8 @@
 HTML {background-color:rgb(228, 217, 200);}
 
+A{color:chartreuse}
+A:hover{color: aliceblue;}
+
 UL{color:rgb(19, 163, 221)}
 
  h1{
@@ -26,3 +29,16 @@ IMG{
 #chicago {width:50%;}
 
 .highlight_01 {background-color: deeppink;}
+.highlight_01:hover{color: aliceblue;}
+
+
+.highlight_01 strong {background-color: pink;}
+
+
+#main {background-color: azure; padding:50x;
+margin: 100px;
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);}
+
+#gallery{display:flex; 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);}
