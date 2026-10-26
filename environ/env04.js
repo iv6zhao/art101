@@ -1,11 +1,28 @@
-let environmentTitle = "Daisy Lover's Utopia";
 
-let environmentElements = ["clouds", "rainbows", "warm breeze", "beaming sun"];
+let count = 0;
 
-let mainEntity = {
-    name: "The clouds",
-    type: "soft border",
-    mood: "suspicious",
-    isMoving: true,
-    favoriteElement: environmentElements[1]
+let buttonCreature = {
+    name: "Needy Button",
+    species: "interface creature",
+    favoriteFood: "clicks",
+    moods: ["Minki and Rukki are lovers","They love to go to the beach and sunbathe", "one of their favorite things to do is wear matching couple outfits"]
 };
+
+$("#needy-button").click(function () {
+
+    count = count + 1;
+
+    let arrayPosition = count - 1;
+
+    let currentMood = buttonCreature.moods[arrayPosition];
+
+    let message = "<p>You have unlocked " + count + " fun facts!.</p>";
+
+
+    $("#output").html(message);
+
+    console.log(count);
+    console.log(arrayPosition);
+    console.log(currentMood);
+
+});
