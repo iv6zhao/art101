@@ -19,6 +19,6 @@ $(answer).html(message);
 })
 
 $("#place").click(function(){
-    let message = "minky and rukki's favorite foods are" + "<strong>" + "</strong>" + information.place
+    let message = "minky and rukki's favorite place is" + "<strong>" + "</strong>" + information.place
 $(answer).html(message);
 })
