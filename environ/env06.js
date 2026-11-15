@@ -1,0 +1,50 @@
+let about = "minky and rukki";
+
+let information = {
+    place: "the beach",
+    food: "bananas & ice cream sundaes!"
+};
+
+
+
+$("#needy-button").click(function () {
+    let message = about + " fell in love here at utopia while studying together at monkey academy ";
+    $("#answer").html(message);
+});
+
+
+
+$("#food").click(function () {
+    let message = "minky and rukki's favorite foods are " + information.food;
+    $("#answer").html(message);
+});
+
+
+
+$("#place").click(function () {
+    let message = "minky and rukki's favorite place is " + information.place;
+    $("#answer").html(message);
+});
+
+$('.img').on({
+    click: function(){
+        $(this).addClass('new-bg').removeClass('bg') // changes background on click
+    },
+    mousedown: function() {
+        // :active state
+    },
+    mouseup: function() {
+        // on click release
+    },
+    mouseenter: function() {
+        // on hover
+    },
+    mouseleave: function() {
+        // hover exit
+    }
+    /* 
+      , hover: function(){
+           // or hover instead of enter/leave
+        }
+    */
+})
