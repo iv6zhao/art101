@@ -63,15 +63,8 @@ h2 {
   vertical-align: baseline;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-1:hover,
-.button-1:focus {
-  background-color: #F082AC;
-}
+  touch-action: manipulation;}
    
-
 
 #food {
 
@@ -181,3 +174,17 @@ h2 {
 .button-1:focus {
   background-color: #F082AC;
 }
+
+
+#panel, #flip {
+  padding: 10px;
+  text-align: center;
+  background-color: #c7e0ea;
+  border: solid 1px #f262ce;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
