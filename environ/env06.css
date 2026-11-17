@@ -188,3 +188,6 @@ h2 {
   display: none;
 }
 
+#flip {
+    cursor: pointer;
+}
